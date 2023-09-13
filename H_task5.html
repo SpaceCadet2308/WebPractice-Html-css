@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <table border="1" style="width: 100%">
+    <form action="">
+        <tr>
+        <th><label> Firstname </label></th>
+        <th><input type="text" name="firstname" style="width: 100%" /></th>
+        </tr>
+        
+        <tr>
+            <th><label> Lastname </label></th>
+            <th><input type="text" name="Lastname" style="width: 100%" /></th>
+            </tr>
+       
+        <tr>
+            <th><label> Email </label></th>
+            <th><input  name="Email" style="width: 100%" /></th>
+            </tr>
+       
+        <tr>
+            <th><label> Password </label></th>
+            <th><input type="text" name="pwd" style="width: 100%" /></th>
+            </tr>
+       
+        <tr>
+            <th><label> Re-enter Password </label></th>
+            <th><input type="text" name="Rpwd" style="width: 100%" /></th>
+            </tr>
+        
+        <tr>
+            <th><label> Age </label></th>
+            <th><input type="number" name="Age" style="width: 100%" /></th>
+            </tr>
+            <tr>
+                <th rowspan="2">Gender</th>
+                <td style="text-align: left">
+                    <input type="radio" id="male" name="gender" value="male" />
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left">
+                    <input type="radio" id="female" name="gender" value="female" />
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+    <tr>
+        <th><label> Phone </label></th>
+        <th><input type="number" name="Phone" style="width: 100%" /></th>
+        </tr>
+    
+        <tr>
+            <th>
+        Address</th>
+        <th>
+        <textarea cols="80" rows="5" value="address"></textarea>
+    </th>
+    </tr>
+    <tr>
+        <th>
+        <label> State</label></th>
+        <th>
+        <input type="text" name="State" style="width: 100%" />
+    </th>
+</tr>
+       
+        
+        <tr>
+            <th>
+        <label> Country : </label></th>
+        <th align="left">
+        <select>
+          <option value="Country">Choose your country</option>
+          <option value="india">india</option></select>
+        </th>
+    </tr>
+    <tr>
+        <th>
+        <label> languages Known : </label></th>
+        <th>
+        <input type="radio" name="Eng" />
+        English
+        <input type="radio" name="Kannada" />
+        Kannada
+        <input type="radio" name="Hindi" />
+        Hindi
+        <input type="radio" name="Telugu" />
+        Telugu
+    </th>
+</tr>
+<tr align="left">
+    <th colspan="2">
+        <input type="checkbox" id="decl" name="decl" />
+        <label for="decl">
+          Hereby I declare all the given details are true </label>
+
+        </th>
+    </tr>
+    <tr align="right">
+        <th colspan="2">
+            <label for="decl">
+              Log in to Ethnus website </label><a href="www.google.co.in/">log in</a>
+            </th>
+        </tr>
+      </table>
+      <br>
+      <input type="submit" value="SAVE"  />
+    </form>
+  </body>
+</html>

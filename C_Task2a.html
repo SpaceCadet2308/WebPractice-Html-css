@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #adadad;
+      }
+
+      li {
+        float: left;
+        border-right: 2px solid #2b17df;
+      }
+
+      li a {
+        display: block;
+        color: rgba(24, 42, 206, 0.945);
+        text-align: center;
+        padding: 15px 20px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #666666;
+      }
+      li:last-child {
+        border-right: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Horizontal navigation bar</h3>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+    </ul>
+  </body>
+</html>
